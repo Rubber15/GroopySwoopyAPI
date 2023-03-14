@@ -16,4 +16,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GroopySwoopyDAL\GroopySwoopyDAL.csproj" />
+    <ProjectReference Include="..\GroopySwoopyDTO\GroopySwoopyDTO.csproj" />
+    <ProjectReference Include="..\GroopySwoopyInterfaces\GroopySwoopyInterfaces.csproj" />
+    <ProjectReference Include="..\GroopySwoopyLogic\GroopySwoopyLogic.csproj" />
+  </ItemGroup>
+
 </Project>

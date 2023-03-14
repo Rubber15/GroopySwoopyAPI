@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroopySwoopyAPI", "GroopySwoopyAPI\GroopySwoopyAPI.csproj", "{E5524B1D-7D6A-49C5-A4E9-A9530EA9CC1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroopySwoopyAPI", "GroopySwoopyAPI\GroopySwoopyAPI.csproj", "{E5524B1D-7D6A-49C5-A4E9-A9530EA9CC1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroopySwoopyDAL", "GroopySwoopyDAL\GroopySwoopyDAL.csproj", "{F8F89096-FEA1-4E5D-883E-AFB32ADBA253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroopySwoopyDTO", "GroopySwoopyDTO\GroopySwoopyDTO.csproj", "{7432BC9B-9B8E-478C-8A60-61222237989D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroopySwoopyInterfaces", "GroopySwoopyInterfaces\GroopySwoopyInterfaces.csproj", "{FB4B8451-0019-4AF1-B3F8-8D01F1E17B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroopySwoopyLogic", "GroopySwoopyLogic\GroopySwoopyLogic.csproj", "{A7E4C990-65F1-4319-AE6C-A89C1820E899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{E5524B1D-7D6A-49C5-A4E9-A9530EA9CC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5524B1D-7D6A-49C5-A4E9-A9530EA9CC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5524B1D-7D6A-49C5-A4E9-A9530EA9CC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F89096-FEA1-4E5D-883E-AFB32ADBA253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F89096-FEA1-4E5D-883E-AFB32ADBA253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F89096-FEA1-4E5D-883E-AFB32ADBA253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F89096-FEA1-4E5D-883E-AFB32ADBA253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7432BC9B-9B8E-478C-8A60-61222237989D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7432BC9B-9B8E-478C-8A60-61222237989D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7432BC9B-9B8E-478C-8A60-61222237989D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7432BC9B-9B8E-478C-8A60-61222237989D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4B8451-0019-4AF1-B3F8-8D01F1E17B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4B8451-0019-4AF1-B3F8-8D01F1E17B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4B8451-0019-4AF1-B3F8-8D01F1E17B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4B8451-0019-4AF1-B3F8-8D01F1E17B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E4C990-65F1-4319-AE6C-A89C1820E899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E4C990-65F1-4319-AE6C-A89C1820E899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E4C990-65F1-4319-AE6C-A89C1820E899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E4C990-65F1-4319-AE6C-A89C1820E899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
